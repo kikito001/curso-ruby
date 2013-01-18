@@ -5,6 +5,6 @@ class HolaMundo
 	def saluda()
 		puts "Hola Mundo"
 	end
-
-	objeto = HolaMundo()
+end
+	objeto = HolaMundo.new()
 	objeto.saluda()
